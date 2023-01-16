@@ -1,0 +1,34 @@
+/* reset */
+html {-webkit-text-size-adjust: none; text-size-adjust: none;}
+body {margin: 0;}
+h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, p {margin: 0; padding: 0;}
+h1, h2, h3, h4, h5, h6 {font-weight: 700;}
+a {color: inherit; text-decoration: inherit;}
+li {list-style: none;}
+img {vertical-align: middle; max-width: 100%;}
+address, em, i, cite {font-style: normal;}
+table {border-collapse: collapse;}
+table caption {overflow: hidden; width: 0; height: 0;}
+i[class^="fa"] {position: relative; display: inline-block; vertical-align: middle;}
+i[class^="fa"] span {position: absolute; left: -9999px;}
+i[class^="xi"] {position: relative; display: inline-block; vertical-align: middle;}
+i[class^="xi"] span {position: absolute; left: -9999px;}
+.ir-hidden {position: absolute; left: -9999px;}
+[type="text"], 
+[type="number"],
+[type="tel"], 
+[type="file"],
+[type="password"], 
+[type="email"],
+[type="search"],
+[type="url"], textarea {
+  height: 35px;
+  border: 1px solid #ccc;
+  background: #ffffffdf;
+  color: #333;
+  line-height: 1.3;
+  letter-spacing: 0;
+  vertical-align: middle;
+  outline: 0;
+  text-decoration: none;
+}
