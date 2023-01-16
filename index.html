@@ -10,13 +10,13 @@
   <meta name="description" content="함께 행복해지는 그날까지 - 모두은행" />
   <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
   <!-- cdn -->
+   <script src="https://code.jquery.com/jquery-latest.min.js"></script>
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+  <!-- style -->
   <link rel="stylesheet" href="./css/web-font.css" />
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/style-pc.css" media="screen and (min-width: 1024.0px)" />
   <link rel="stylesheet" href="./css/style-m.css" media="screen and (max-width: 1023.9px)" />
-  <script src="js/jquery-3.6.0.min.js"></script>
-  <script src="js/dino-common.js"></script>
 </head>
 
 <body class="main">
@@ -59,6 +59,16 @@
           <li><a href="#none"><img src="./images/banner_2.jpg" alt=""></a></li>
           <li><a href="#none"><img src="./images/banner_1.jpg" alt=""></a></li>
         </ul>
+        <ul class="indicator"></ul>
+       <p class="control">
+            <a href="#none" class="prev"><i class="xi-angle-left"><span>이전</span></i></a>
+            <a href="#none" class="next"><i class="xi-angle-right"><span>다음</span></i></a>
+            <a href="#none" class="play">
+              <i class="xi-play"><span>타이머 시작</span></i>
+              <i class="xi-pause"><span>타이머 정지</span></i>
+            </a>
+          </p>
+           
         <ul class="content_btn">
           <li><a href="#none">조회</a></li>
           <li><a href="#none">이체</a></li>
@@ -239,9 +249,7 @@
   <!-- wrapper -->
   </div>
   <!-- content-box -->
-  <script></script>
-
-
+    <script src="/js/main.js"></script>
 </body>
 
 </html>
