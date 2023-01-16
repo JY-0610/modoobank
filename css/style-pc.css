@@ -148,7 +148,7 @@ ul.banner li {
 /*content_btn*/
 ul.content_btn {
   position: absolute;
-  right: 20%;
+  right: 16%;
   top: 40%;
   width: 400px;
   height: 70px;
@@ -189,7 +189,7 @@ ul.content_btn li a {
 /*content_list*/
 ul.content_list {
   position: absolute;
-  right: 20%;
+  right: 16%;
   top: 60%;
   width: 100%;
   max-width: 368px;
