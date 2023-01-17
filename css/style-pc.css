@@ -213,10 +213,10 @@ a.prev,a.next{
   color: #e6e6e6;
 }
 a.prev {
-  left: 14%;
+  left: 12%;
 }
 a.next {
-  right: 40%;
+  right: 38%;
 }
 a.play {
   position: absolute;
