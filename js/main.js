@@ -96,4 +96,3 @@ function showSlide(n) {
 }
 
 
-// tab-menu
