@@ -78,13 +78,11 @@ body {
 
 
 /* header */
-div.content-box {
+ div.content-box {
   width: 100%;
   height: 100%;
-  max-width: 1820px;
+  max-width: 1560px; 
   margin: 0 auto;
-  padding: 0 120px;
-  border: 1px solid red;
 }
 
 #header {
@@ -309,7 +307,7 @@ ul.content_list li span {
   position: relative;
   width: 100%;
   height: 100%;
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 .product h2 {
